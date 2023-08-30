@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-lock",
+        "title": "SEGURIDAD",
+        "content": "Mayor seguridad para el acceso a tu hogar sin tener que bajar del auto."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-tools",
+        "title": "CALIDAD",
+        "content": "Productos de alta calidad y tecnología moderna con Garantía de 2 años que lo respalda."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-smile",
+        "title": "ATENCIÓN",
+        "content": "Asesoramiento personalizado a nuestros clientes para desarrollar sus proyectos"
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-plane",
+        "title": "ALCANCE NACIONAL",
+        "content": "Envíos en tiempo y forma a todo el país."
+    }
+]

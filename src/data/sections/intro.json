@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Líderes en Automatismos ",
+        "content": "",
+        "image": "/img/slid/slid02.png"
+    },
+    {
+        "id": 2,
+        "title": "Variedad en Motores",
+        "content": "",
+        "image": "/img/slid/slid01.png"
+    },
+    {
+        "id": 3,
+        "title": "Fácil instalación",
+        "content": "",
+        "image": "/img/slid/slid10.png"
+    }
+]
