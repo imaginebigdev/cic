@@ -1,120 +1,62 @@
 import React from "react";
+import Testimonials from "../Testimonials/testimonials";
 
 const Services8 = () => {
   return (
-    <section className="app-services section-padding bg-gray">
+    <section className="app-services section-padding bg-gray" id="servicio">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-7 col-md-10">
-            <div className="s-head text-center mb-80">
-              <h6 className="stit mb-30">
-                <span className="left"></span> Application Features
-                <span className="right"></span>
-              </h6>
-              <h2>Amazing Features to Customize your Application Easy</h2>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="item mb-30 text-center">
               <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-vector"></span>
+                <div className="icon mb-3">
+                  <i className="fas fa-chart-bar"></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Modern Design</h5>
+                  <h5>Mision</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
+              <p style={{ textAlign: "justify", color: "#fff" }}>
+                Ser una organización que promociona el desarrollo y apoyo a
+                nuestros miembros y a la comunidad; unificando , innovación,
+                esfuerzo, compromiso, talento y profesionalismo, para así,
+                contribuir con el crecimiento nacional.
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="item mb-30 text-center">
               <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-rocket"></span>
+                <div className="icon mb-3">
+                  <i className="fas fa-list"></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Fast Installation</h5>
+                  <h5>Valores</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
+              <p style={{ textAlign: "justify", color: "#fff" }}>
+                Experiencia / Seguridad / Excelencia / Apoyo / Profesionalismo /
+                Compromiso / Respeto / Confianza / Motivación / Mejoramiento
+                Continuo / Calidad / Conocimiento / Garantía / Resultados
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item mb-30">
+          <div className="col-lg-4 col-md-6 mb-4">
+            <div className="item mb-30 text-center">
               <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-graph3"></span>
+                <div className="icon mb-3">
+                  <i className="fas fa-eye text-7xl"></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Digital Analytics</h5>
+                  <h5>Vision</h5>
                 </div>
               </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item sm-mb50">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-anchor"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>SEO Friendly</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item sm-mb50">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-phone"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>Clean Coding</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
-              </p>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="item">
-              <div className="item-tit mb-15">
-                <div className="icon">
-                  <span className="pe-7s-lock"></span>
-                </div>
-                <div className="text-tit">
-                  <h5>Heigh Security</h5>
-                </div>
-              </div>
-
-              <p>
-                unde omniste natus error sit voluptatem accus antium dolore mque
-                laudant totam rem aperiam.
+              <p style={{ textAlign: "justify", color: "#fff" }}>
+                Bajo el desafío de brindar apoyo institucional y empresarial a
+                nuestros miembros, la Cámara de Industria y Comercio de
+                Cipolletti apuesta al crecimiento de nuestra institución para
+                posicionarse entre las organizaciones gremiales empresariales
+                destacadas en el país.
               </p>
             </div>
           </div>

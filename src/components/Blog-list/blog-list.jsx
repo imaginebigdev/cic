@@ -49,34 +49,21 @@ const BlogList = ({ blogs }) => {
                             </Link>
                           </h5>
                           <p className="mt-10">
-                            {blogItem.content.substr(0, 146) + '...'}
+                            {blogItem.content}
+                            {blogItem.ul && (
+                              <ul>
+                                {blogItem.ul.map((e, inde) => (
+                                  <li key={inde}> {e}</li>
+                                ))}
+                              </ul>
+                            )}
                           </p>
-                          <div className="btn-more mt-30">
-                            <Link href="/blog-details/blog-details-dark">
-                              <a className="simple-btn">Read More</a>
-                            </Link>
-                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               ))}
-              <div className="pagination">
-                <span className="active">
-                  <Link href={`/blog/blog-dark`}>1</Link>
-                </span>
-                <span>
-                  <Link href={`/blog/blog-dark`}>2</Link>
-                </span>
-                <span>
-                  <Link href={`/blog/blog-dark`}>
-                    <a>
-                      <i className="fas fa-angle-right"></i>
-                    </a>
-                  </Link>
-                </span>
-              </div>
             </div>
           </div>
         </div>

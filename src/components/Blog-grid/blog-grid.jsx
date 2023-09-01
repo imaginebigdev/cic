@@ -1,9 +1,14 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const BlogGrid = ({ blogs }) => {
+  const [expandedItems, setExpandedItems] = useState({});
+
+  const handleExpandClick = (itemId, url) => {
+    window.location.href = `${url}`;
+  };
   return (
     <section className="blog-pg blog section-padding pt-0">
       <div className="container">
@@ -37,34 +42,24 @@ const BlogGrid = ({ blogs }) => {
                       </div>
                       <h5>
                         <Link href="/blog-details/blog-details-dark">
-                          {blogItem.title.substr(0, 55) + "..."}
+                          {blogItem.title}
                         </Link>
                       </h5>
-                      <div className="btn-more">
-                        <Link href="/blog-details/blog-details-dark">
-                          <a className="simple-btn">Read More</a>
-                        </Link>
-                      </div>
+                      <p>{blogItem.shortText}</p>
+                      {blogItem.url && (
+                        <button
+                          onClick={() =>
+                            handleExpandClick(blogItem.id, blogItem.url)
+                          }
+                        >
+                          Leer más
+                        </button>
+                      )}
                     </div>
                   </div>
                 </div>
               </div>
             ))}
-            <div className="pagination">
-              <span className="active">
-                <Link href={`/blog/blog-dark`}>1</Link>
-              </span>
-              <span>
-                <Link href={`/blog/blog-dark`}>2</Link>
-              </span>
-              <span>
-                <Link href={`/blog/blog-blogwindow.theme}`}>
-                  <a>
-                    <i className="fas fa-angle-right"></i>
-                  </a>
-                </Link>
-              </span>
-            </div>
           </div>
         </div>
       </div>

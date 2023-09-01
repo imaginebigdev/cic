@@ -1,20 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Líderes en Automatismos ",
+        "title": "ESTAMOS PARA ACOMPAÑAR TU PROYECTO Y QUE LOGRES TUS METAS COMERCIALES",
         "content": "",
-        "image": "/img/slid/slid02.png"
-    },
-    {
-        "id": 2,
-        "title": "Variedad en Motores",
-        "content": "",
-        "image": "/img/slid/slid01.png"
-    },
-    {
-        "id": 3,
-        "title": "Fácil instalación",
-        "content": "",
-        "image": "/img/slid/slid10.png"
+        "image": "/img/slid/fondo-1.png"
     }
+   
 ]

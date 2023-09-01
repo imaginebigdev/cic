@@ -1,35 +1,87 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l1.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
-        "date": {
-            "day": "07",
-            "month": "August"
-        }
+        
+        "image": "/img/blog/an.png"
+        
     },
     {
         "id": 2,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l2.jpg",
-        "tags": ["WordPress"],
-        "date": {
-            "day": "07",
-            "month": "August"
-        }
+        
+        "image": "/img/blog/to.png"
+        
     },
     {
         "id": 3,
-        "title": "Build a Beautiful Blog With Ease",
-        "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-        "image": "/img/blog/l3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
-        "date": {
-            "day": "07",
-            "month": "August"
-        }
-    } 
+       
+        "image": "/img/blog/v.png"
+        
+    },
+    {
+        "id": 4,
+        
+        "image": "/img/blog/af.png"
+        
+       
+    },
+    {
+        "id": 5,
+       
+        "image": "/img/blog/li.png"
+        
+    },
+    {
+        "id": 6,
+       
+        "image": "/img/blog/em.png"
+      
+    },
+    {
+        "id": 7,
+        
+        "image": "/img/blog/co(1).png"
+      
+    },
+    {
+        "id": 8,
+        
+        "image": "/img/blog/fu.png"
+     
+    },
+    {
+        "id": 9,
+        
+        "image": "/img/blog/10.png"
+        
+    },
+    {
+        "id": 10,
+        
+        "image": "/img/blog/bu.png"
+     
+    },
+    {
+        "id": 11,
+        
+        "image": "/img/blog/lid.png"
+     
+    },
+    {
+        "id": 12,
+        
+        "image": "/img/blog/cii.png"
+   
+    },
+    {
+        "id": 13,
+       
+        "image": "/img/blog/rn.png"
+        
+    },
+    {
+        "id": 14,
+        
+        "image": "/img/blog/05.png"
+       
+    }
 ]

@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b1.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "RCP BASICO",
+    "content": "FACTORES DE RIESGO. RECONOCIMIENTO DEL INFARTO. RCP ADULTOS, NIÑOS Y BEBES. ACTIVACION DEL S.E.M.SINDROME CORONARIO AGUDO. MANIOBRAS DE DESOBSTRUCCION.",
+    "image": "/img/blog/curso.png",
+    "tags": ["TUTOR:", "EMERCAP"],
     "date": {
       "day": "07",
       "month": "August"
@@ -12,10 +12,11 @@
   },
   {
     "id": 2,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b2.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "COMPETENCIAS DE GERENCIAMIENTO ASOCIATIVO",
+    "ul": ["Formación de esquemas asociativos.", "Desarrollo conceptual sobre asociatividad, redes y otros conexos.", "Asociativismo como medio para la construcción de capital social.", "Instituto Nacional de Asociativismo y Economía Social.", "Acuerdos de voluntades entre entidades territoriales.", "Importancia de los acuerdos comunes para alcanzar objetivos.", "Creación de programas: Identificar, seleccionar productos y agruparlos.", "Introducción al comercio exterior. Gerenciamiento de comercio interior y exterior.", "La estrategia del comercio internacional.", "Los recursos y las capacidades de la empresa.", "El análisis de los competidores internacionales.","El precio en los mercados internacionales."," Cultura, valores y tecnología.","Planeamiento estratégico de ventas asociativas.","Definición y descripción del proceso planeación estratégica.","Planeación estratégica como herramienta de gestión del negocio.","Implementación y retos del proceso planeación estratégica.","KPIs en planeación estratégica.","Resultados y beneficios del proceso S&OP."],
+    "content": "TEMARIO:",
+    "image": "/img/blog/cap.png",
+    "tags": ["TUTOR:", "JESUS GIOVANNETTI"],
     "date": {
       "day": "07",
       "month": "August"
@@ -23,10 +24,10 @@
   },
   {
     "id": 3,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b3.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "ESTRUCTURA DE COSTOS",
+    "content": "APRENDE A ELABORA UNA ESTRUCTURA DE COSTOS Y ASI, PODER DETERMINAR EL PRECIO DE TU PRODCUTO Y/O SERVICIO.",
+    "image": "/img/blog/tall.png",
+    "tags": ["TUTOR:", "GIO CONSULTING"],
     "date": {
       "day": "07",
       "month": "August"
@@ -34,10 +35,21 @@
   },
   {
     "id": 4,
-    "title": "Build a Beautiful Blog With Ease",
-    "content": "My job is simple and sophisticated, so it is possible to describe and simple, and flowery language. I love the feel and sophistication of its superiority. I like people with a keen mind and at the same time easy to talk to. These qualities can be combined perfectly natural. However, things like people look miserable, if these properties are connected.",
-    "image": "/img/blog/b4.jpg",
-    "tags": ["WordPress", "Themeforest", "Vie"],
+    "title": "Evento lanzamiento Hub de ICC Centro de Emprendedurismo Argentina - Cono Sur",
+    "content": "IMPORTANTE: La sala de Zoom tiene capacidad limitada. Por tal motivo, te sugerimos ingresar en el horario indicado ya que de completarse el cupo no podrás ingresar, pese a estar inscripto/a.",
+    "image": "/img/blog/city.png",
+    "tags": ["TUTOR:", "USINA DE EMPRENDERORES"],
+    "date": {
+      "day": "07",
+      "month": "August"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Potencia tus ventas",
+    "content": "Potencia tus ventas con el uso correcto de las palabras",
+    "image": "/img/blog/pot.png",
+    "tags": ["TUTOR:", "MARÍA MONTES DE OCA"],
     "date": {
       "day": "07",
       "month": "August"

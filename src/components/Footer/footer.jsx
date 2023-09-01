@@ -6,8 +6,11 @@ import appData from "../../data/app.json";
 const Footer = ({ hideBGCOLOR }) => {
   return (
     <footer className={`${!hideBGCOLOR ? "sub-bg" : ""}`}>
-      <div className="container">
-        <div className="row">
+      <div className="container" style={{ display: "flex" }}>
+        <div
+          className="row"
+          style={{ display: "flex", justifyContent: "space-around" }}
+        >
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
@@ -17,65 +20,22 @@ const Footer = ({ hideBGCOLOR }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Dirección</h6>
-                    <p className="p-footer">Av circunvalacion 4076, Córdoba</p>
+                    <h6>DIRECCIÓN</h6>
+                    <p>Urquiza 360, Cipolletti, Río Negro</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
-                    <h6>Email</h6>
-                    <p className="p-footer">support@gmail.com</p>
+                    <h6>DÍAS Y HORARIOS</h6>
+                    <p>LUNES A VIERNES ( 9:00 A 13:00 )</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
-                    <h6>Teléfono</h6>
-                    <p className="p-footer">+543516668134</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title">
-                <h5>Novedades</h5>
-              </div>
-              <ul>
-                <li>
-                  <div className="img">
-                    <Link href="/productos/potroPlusSpeed">
-                      <a>
-                        <img src="/img/productos/potroplus.png" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <a>
-                      <p className="p-footer">
-                        POTRO PLUS SPEED: Modelo rápido recomendado para
-                        portones de porte medio
-                      </p>
-                    </a>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <Link href="/productos/potro">
-                      <a>
-                        <img src="/img/productos/potro.png" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <a>
-                      <p className="p-footer">
-                        POTRO 600: Modelo recomendado para portones
-                        domiciliarios.
-                      </p>
-                    </a>
+                    <h6>TELÉFONO</h6>
+                    <p>+54 299 477 4244</p>
                   </div>
                 </li>
               </ul>
@@ -87,21 +47,21 @@ const Footer = ({ hideBGCOLOR }) => {
                 <img src={appData.lightLogo} alt="" />
               </div>
               <div className="social">
-                <a href="#0">
+                <a href="https://www.facebook.com/cicc.cipolletti.9">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.instagram.com/camaraicc/">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="#0">
-                  <i className="fab fa-youtube"></i>
+                <a href="https://api.whatsapp.com/send/?phone=542994774244&text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s&app_absent=0">
+                  <i className="fab fa-whatsapp"></i>
                 </a>
               </div>
               <div className="copy-right">
-                <p className="p-footer">
-                  © 2023, GEARS AUTOMATISMOS. MADE WITH PASSION BY{" "}
-                  <Link href="https://imaginebig.dev">
-                    <a target="_blank"> Imagine Big</a>
+                <p>
+                  © 2023, NUTREN. Made with passion by{" "}
+                  <Link href="https://www.imaginebig.dev/">
+                    <a target="_blank">Imagine Big</a>
                   </Link>
                   .
                 </p>

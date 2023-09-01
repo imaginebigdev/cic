@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
 
@@ -11,6 +11,7 @@ const Navbar = ({ lr, nr, theme }) => {
       className={`navbar navbar-expand-lg change ${
         theme === "themeL" ? "light" : ""
       }`}
+      style={{ backgroundColor: "#fff" }}
     >
       <div className="container">
         <a className="logo">
@@ -42,68 +43,67 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
+            <li className="nav-item m-4">
+              <i className="fas fa-home"></i>
               <Link
                 className="nav-link"
-                to=""
-                onClick={() => {
-                  window.scrollTo({
-                    top: 0,
-                    behavior: "smooth",
-                  });
-                  handleMobileDropdown();
-                }}
+                href="/"
+                onClick={handleMobileDropdown}
                 offset={50}
                 duration={500}
               >
                 Inicio
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-4">
+              <i className="fas fa-graduation-cap"></i>
               <Link
                 className="nav-link"
-                to="about"
+                href="/Cursos"
                 onClick={handleMobileDropdown}
-                smooth="true"
-                offset={50}
-                duration={500}
               >
-                Nosotros
+                Cursos
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item m-4">
+              <i className="fas fa-newspaper"></i>
               <Link
                 className="nav-link"
-                to="productos"
+                href="/Noticias"
                 onClick={handleMobileDropdown}
-                smooth="true"
-                offset={50}
-                duration={500}
               >
-                Productos
+                Noticias
               </Link>
             </li>
-            {/*   <li className="nav-item">
+            <li className="nav-item m-4">
+              <i className="fas fa-calendar-alt"></i>
               <Link
                 className="nav-link"
-                to="clientes"
+                href="/Eventos"
                 onClick={handleMobileDropdown}
-                smooth="true"
-                offset={50}
-                duration={500}
               >
-                Clientes
+                Eventos
               </Link>
-            </li> */}
-            <li className="nav-item">
-              <a
-                href="https://wa.me/543516668134"
-                target="_blank"
-                rel="noreferrer"
+            </li>
+            <li className="nav-item m-4">
+              <i className="fas fa-handshake"></i>
+              <Link
                 className="nav-link"
+                href="/Convenios"
+                onClick={handleMobileDropdown}
+              >
+                Convenios
+              </Link>
+            </li>
+            <li className="nav-item m-4">
+              <i className="fas fa-envelope"></i>
+              <Link
+                className="nav-link"
+                href="/Contactos"
+                onClick={handleMobileDropdown}
               >
                 Contacto
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

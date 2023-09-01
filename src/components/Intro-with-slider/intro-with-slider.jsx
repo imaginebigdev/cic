@@ -88,8 +88,9 @@ const IntroWithSlider = ({ sliderRef }) => {
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
-                        <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
+                        <div className="caption center">
+                          <img src={"/img/c.png"} />
+                          <h4 className="color-font mt-40">{slide.title}</h4>
                         </div>
                       </div>
                     </div>
@@ -117,14 +118,14 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
+          <a href="https://www.facebook.com/cicc.cipolletti.9">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="#0">
+          <a href="https://www.instagram.com/camaraicc/">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="#0">
-            <i className="fab fa-youtube"></i>
+          <a href="https://api.whatsapp.com/send/?phone=542994774244&text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s&app_absent=0">
+            <i className="fab fa-whatsapp"></i>
           </a>
         </div>
       </div>

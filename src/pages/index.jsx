@@ -1,10 +1,10 @@
 import React from "react";
-import HomePage2 from "./homepage/home2-light";
+import Cic from "./cic/cic";
 
 const Home = () => {
   return (
     <>
-      <HomePage2 />
+      <Cic />
     </>
   );
 };

@@ -19,8 +19,21 @@ const ContactForm = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
+            <i className="fas fa-map-marker-alt text-7xl">
+              <h2 style={{ color: "#003491ff" }}>UBICACIÓN</h2>
+            </i>
+            <div className="col-lg-6 valign">
+              <div className="img md-mb50">
+                <img src={"/img/map.png"} alt="" />
+              </div>
+            </div>
             <div className="form md-mb50">
-              <h4 className="fw-700 color-font mb-50">Get In Touch.</h4>
+              <h2
+                className="fw-700 color-font mb-50"
+                style={{ color: "#003491ff" }}
+              >
+                CONTACTANOS DIRECTAMENTE
+              </h2>
               <Formik
                 initialValues={{
                   name: "",
@@ -40,8 +53,8 @@ const ContactForm = () => {
                   values.message = "";
                   // clear message
                   setTimeout(() => {
-                    messageRef.current.innerText = ''
-                  }, 2000)
+                    messageRef.current.innerText = "";
+                  }, 2000);
                 }}
               >
                 {({ errors, touched }) => (
@@ -87,44 +100,6 @@ const ContactForm = () => {
                   </Form>
                 )}
               </Formik>
-            </div>
-          </div>
-          <div className="col-lg-5 offset-lg-1">
-            <div className="cont-info">
-              <h4 className="fw-700 color-font mb-50">Contact Info.</h4>
-              <h3 className="wow" data-splitting>
-                {ContactFromDate.title}
-              </h3>
-              <div className="item mb-40">
-                <h5>
-                  <a href="#0">{ContactFromDate.email}</a>
-                </h5>
-                <h5>{ContactFromDate.phone}</h5>
-              </div>
-              <h3 className="wow" data-splitting>
-                Visit Us.
-              </h3>
-              <div className="item">
-                <h6>
-                  {ContactFromDate.location.first}
-                  <br />
-                  {ContactFromDate.location.second}
-                </h6>
-              </div>
-              <div className="social mt-50">
-                <a href="#0" className="icon">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-pinterest"></i>
-                </a>
-                <a href="#0" className="icon">
-                  <i className="fab fa-behance"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>

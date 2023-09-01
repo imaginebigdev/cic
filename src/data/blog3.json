@@ -1,9 +1,11 @@
 [
     {
         "id": 1,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b1.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "BCRA actualiza tasas de interés para las operaciones de crédito",
+        "image": "/img/blog/ban.png",
+        "url": "https://www.redcame.org.ar/novedades/12995/el-bcra-actualiza-las-tasas-de-interes-para-las-operaciones-de-credito",
+        "shortText": "La Confederación Argentina de la Mediana Empresa (CAME) informa que, a través de la COMUNICACIÓN “A” 7726, el Banco Central de la República",
+        "tags": ["ECONOMÍA"],
         "date": {
             "day": "07",
             "month": "August"
@@ -11,19 +13,23 @@
     },
     {
         "id": 2,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b2.jpg",
-        "tags": ["WordPress"],
+        "title": "Día del Empleado de Comercio: qué negocios abren",
+        
+        "url": "https://www.lmcipolletti.com/dia-del-empleado-comercio-que-negocios-abren-n950560",
+        "shortText": "Las grandes superficies no atenderán en todo el día, en tanto que algunos comercios serán atendidos por sus dueños y, en otros casos, los trabajadores",
+        "image": "/img/blog/com.png",
+        "tags": ["ECONOMÍA"],
         "date": {
             "day": "07",
             "month": "August"
         }
     },
     {
-        "id": 3,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "id": 3,  
+        "title": "Reunión del Presidente CAME con el Intendente de Cipolletti",
+        "shortText": "El día 22 de Septiembre del corriente el Presidente de la CICC Sr. José Luis Bunter junto al Presidente de la Confederación Argentina de la Mediana Empresa, el secretario General y el Secretario de Hacienda de la misma entidad fueron recibidos por",
+        "image": "/img/blog/pre.png",
+        "tags": ["POLÍTICA"],
         "date": {
             "day": "07",
             "month": "August"
@@ -31,9 +37,10 @@
     },
     {
         "id": 4,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b4.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "PRESIDENTE DE CAME VISITA LA CICC",      
+        "image": "/img/blog/pres.png",
+        "shortText": "Hoy jueves 22 de septiembre/22 a las 12 horas, se realizó una Reunión en la Cámara de Industria y Comercio de Cipolletti, a instancias de su Titular José Luis Bunter, con el Presidente de CAME, Alfredo González y comitiva. Tema central de la reunión la",
+        "tags": ["ECONOMÍA"],
         "date": {
             "day": "07",
             "month": "August"
@@ -41,9 +48,11 @@
     },
     {
         "id": 5,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b2.jpg",
-        "tags": ["WordPress"],
+        "url": "https://www.lmcipolletti.com/el-presidente-came-estara-cipolletti-y-neuquen-n948459",
+        "title": "El presidente de CAME estará en Cipolletti y en Neuquén",
+        "image": "/img/blog/di.png",
+        "shortText": "El titular de la Confederación Argentina de la Mediana Empresa (CAME), Alfredo González, visitará Cipolletti y Neuquén, ciudades en las que mantendrá reuniones de alto nivel. Se trata del referente de una de las instituciones más",
+        "tags": ["ECONOMÍA"],
         "date": {
             "day": "07",
             "month": "August"
@@ -51,12 +60,324 @@
     },
     {
         "id": 6,
-        "title": "How to use solid color combine with simple furnitures.",
-        "image": "/img/blog/b3.jpg",
-        "tags": ["WordPress", "Themeforest", "Vie"],
+        "title": "Apoyan el tren de cargas de Vaca Muerta, pero por las bardas",
+        "url": "https://www.lmcipolletti.com/apoyan-el-tren-cargas-vaca-muerta-pero-las-bardas-n944808",
+        "shortText": "Representantes institucionales, empresariales y productivos del Valle apoyan la propuesta. Pero consideran que se debe construir una nueva traza de vías por el",
+        "image": "/img/blog/tren.png",
+        "tags": ["POLÍTICA"],
         "date": {
             "day": "07",
             "month": "August"
         }
-    } 
+    },
+    {
+        "id": 7,
+        "url": "https://www.lmcipolletti.com/gastronomicos-preocupados-cobros-musica-n944110",
+        "shortText": "SADAIC y organismos nacionales controlan lo que se escucha en los locales. Ante tanta inquietud porque dicen que son hostigados, interviene la Cámara de",
+        "title": "Gastronómicos preocupados por cobros de música",
+        "image": "/img/blog/res.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 8,
+        "url": "https://www.lmcipolletti.com/feriado-nacional-los-comercios-cipolenos-abren-n943580",
+        "shortText": "Integrantes de la Cámara de Industria y Comercio de Cipolletti repudiaron 'categóricamente' el atentado del jueves contra la vicepresidenta de la Nación, Cristina Fernández. Pero consideraron que 'hoy se debería trabajar con normalidad', pese al feriado nacional.",
+        "title": "COMUNICADO CICC SOBRE EL ATENTADO A LA VICEPRESIDENTE DE LA NACION",
+        "image": "/img/blog/com(1).png",
+        "tags": ["POLÍTICA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Solicitan un dólar propio para las economías regionales",
+        "url": "https://www.lmcipolletti.com/solicitan-un-dolar-propio-las-economias-regionales-n942415",
+        "shortText": "Una comitiva de empresarios, que incluyó al dirigente sectorial cipoleño José Luis Bunter, se reunió con funcionarios del área Pyme del gobierno nacional. Les",
+        "image": "/img/blog/ju.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 10,
+        "url": "https://www.lmcipolletti.com/comerciantes-se-suman-al-festejo-del-dia-la-ninez-n936210",
+        "shortText": "El domingo 21 se festeja a la infancia y los miembros de la Cámara de Industria y Comercio invitan a la comunidad a hacer donaciones para que chicos que",
+        "title": "Comerciantes se suman al festejo del Día de la Niñez",
+        "image": "/img/blog/ar.png",
+        "tags": ["SOCIEDAD"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 11,
+        "url": "https://www.lmcipolletti.com/la-muni-restablecera-beneficios-comerciantes-n910877",
+        "shortText": "El Deliberante aprobará un proyecto que eximirá por 6 meses la tasa de Inspección e Higiene a los nuevos locales. Lo impulsó Lorena Yensen que tuvo vigencia",
+        "title": "La Muni restablecerá beneficios para comerciantes",
+        "image": "/img/blog/so.png",
+        "tags": ["POLÍTICA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 12,
+        "url": "https://www.lmcipolletti.com/-los-comerciantes-afirman-que-no-tienen-nada-que-ver-la-escalada-n911104",
+        "shortText": "En la CICC sostienen que el sector mercantil no tiene responsabilidad por el incontenible alza de los precios. En cambio culpan a las políticas nacionales que no son",
+        "title": "Los comerciantes afirman que no tienen nada que ver con la escalada",
+        "image": "/img/blog/lo.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 13,
+        
+        "shortText": "Aunque en esta edición se puede completar también de manera digital, el miércoles 18 de mayo se llevará a cabo el Censo 2022, que solo por esta vez fue declarado feriado nacional a través del decreto 42/2022.",
+        "title": "EL MIERCOLES 18 DE MAYO SERA FERIADO POR EL CENSO NACIONAL",
+        "image": "/img/blog/jo.png",
+        "tags": ["SOCIEDAD"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 14,
+        "url": "https://www.lmcipolletti.com/llega-cipolletti-el-encuentro-anime-mas-grande-la-patagonia-n909337",
+        "shortText": "La Animacom 2022 se trata de una verdadera fiesta en la que los amantes de los comics, el anime y los juegos se encuentran y se convierten en sus personajes",
+        "title": "Llega a Cipolletti el encuentro de anime más grande de la Patagonia",
+        "image": "/img/blog/wa.png",
+        "tags": ["ARTE Y CULTURA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 15,
+        "url": "https://cipollettidigital.com.ar/contenido/33204/lanzaron-en-cipolletti-un-torneo-internacional-de-ajedrez-unico-en-la-provincia",
+        "shortText": "Esta mañana se realizó el lanzamiento oficial del Torneo Internacional de Ajedrez, un evento único y novedoso para la región y la Provincia que se realizará del 11 al 15 de mayo en Cipolletti. El lanzamiento estuvo encabezado por el secretario",
+        "title": "Lanzaron en Cipolletti un Torneo Internacional de Ajedrez",
+        "image": "/img/blog/re.png",
+        "tags": ["ARTE Y CULTURA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 16,
+        "url": "https://www.lmcipolletti.com/acuerdan-medidas-cuidar-los-repartidores-el-anai-mapu-n907670",
+        "shortText": "La Policía y la CIC avanzan en la propuesta para que los distribuidores de mercadería se registren en la Comisaría cada vez que ingresan al barrio. De esta",
+        "title": "Acuerdan medidas para cuidar a los repartidores en el Anai Mapu",
+        "image": "/img/blog/pol.png",
+        "tags": ["POLÍTICA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 17,
+        "url":"https://www.lmcipolletti.com/mejoran-las-ventas-y-hay-optimismo-diciembre-n867089",
+        "shortText": "El comercio mercantil local, y de todo el país, viene de remontada. En noviembre el crecimiento fue del 8,9% con respecto al mismo mes de 2020. Enero y febrero, una",
+        "title": "Mejoran las ventas y hay optimismo por diciembre",
+        "image": "/img/blog/ge.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 18,
+        "url": "https://www.rionegro.com.ar/advierten-por-estafas-con-transferencias-falsas-a-comerciantes-mayoristas-de-la-region-2069502/",
+        "shortText": "Desde la Cámara de Industria y Comercio de Cipolletti advirtieron a comerciantes mayoristas sobre estafas por la venta de mercaderías. Utilizan tickets falsos de transferencias bancarias, pero no se realizan los pagos.",
+        "title": "Advierten por estafas con transferencias falsas a comerciantes mayoristas de la región",
+        "image": "/img/blog/sal.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 19,
+        "url": "https://www.ambito.com/economia/afip/dispuso-un-reintegro-monotributistas-como-cobrarlo-n5319587",
+        "shortText": "Los monotributistas que durante 2021 hayan abonado en tiempo y forma 9 meses las obligaciones mensuales, Los monotributistas que durante 2021 hayan abonado en tiempo y forma 9 meses las obligaciones mensuales, accederán al",
+        "title": "AFIP dispuso un reintegro para monotributistas: cómo cobrarlo",
+        "image": "/img/blog/cal.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 20,
+        "url": "https://www.lanueva.com/nota/2021-11-17-19-0-24-alivio-perdonaran-deudas-a-monotributistas-y-pymes",
+        "shortText": "SIEMPRE QUE NO SUPEREN LOS $ 100 MIL La medida forma parte del paquete de beneficios de la Ley N° 27.653.",
+        "title": "Alivio: perdonarán deudas a monotributistas y pymes",
+        "image": "/img/blog/afi.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 21,
+        "url": "https://www.lmcipolletti.com/bunter-vicepresidente-la-nueva-confederacion-federal-pyme-n861223",
+        "shortText": "La Cámara de Industria y Comercio de Cipolletti pasó a integrar también, como una de las entidades fundadores, la Confederación Federal Pyme Argentina, en la que el referente local José Luis Bunter ejercerá el cargo",
+        "title": "Bunter, vicepresidente de la nueva Confederación Federal Pyme",
+        "image": "/img/blog/jos.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 22,
+        "shortText": "En la ciudad de Villa Mercedes, provincia de San Luis, se conformó la CONFEDRACION FEDERAL PYME ARGENTINA con la adhesión de 145 Federaciones, Cámaras, Asociaciones y Fundaciones que representan las diferentes actividades económicas",
+        "title": "LANZAMIENTO CONFEDERACION FEDERAL PYME",
+        "image": "/img/blog/el.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 23,
+        "shortText": "Queremos contarles que hemos sido invitados a formar parte de la Confederación Federal PyMe. Este movimiento al igual que el Monapy (del que ya",
+        "title": "ACONFEDERACION FEDERAL PYME",
+        "image": "/img/blog/fre.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 24,
+"url": "https://www.crear.educativa.org%20/#campuscrear",
+        "shortText": "El campus virtual del CREAR optimiza las habilidades y brinda herramientas para el desarrollo de emprendimientos y pymes de Río Negro.",
+        "title": "CAMPUS CREAR",
+        "image": "/img/blog/wat.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 25,
+        "url": "https://www.lmcipolletti.com/el-dia-la-madre-mejoro-el-animo-del-comercio-cipoleno-n852595",
+        "shortText": "La tradicional celebración dejó un saldo 'muy positivo' para el sector. El rubro de los alimentos el más beneficiado.",
+        "title": "El Día de la Madre mejoró el ánimo del comercio cipoleño",
+        "image": "/img/blog/go.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 26,
+        "url": "https://www.lmcipolletti.com/piden-los-consumidores-que-adelanten-las-compras-el-dia-la-madre-n851547",
+        "shortText": "El domingo es el festejo y lo mejor es anticiparse en la adquisición de regalos. La CIC indicó que los stocks de la mayoría de los productos más solicitados son",
+        "title": "Piden a los consumidores que adelanten las compras por el Día de la Madre",
+        "image": "/img/blog/fot.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 27,
+        "url": "https://www.lmcipolletti.com/empresarias-y-emprendedoras-coparan-la-isla-jordan-el-fin-semana-n850210",
+        "shortText": "Liderazgo Mujeres se se denomina el encuentro que se realizará este sábado y el domingo. Dictarán capacitaciones, y habrá una feria, espectáculos y propuestas",
+        "title": "Empresarias y emprendedoras coparán la Isla Jordán el fin de semana",
+        "image": "/img/blog/bos.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 28,
+        "url": "https://www.lmcipolletti.com/crecen-las-ventas-el-comercio-local-la-flexibilizacion-casi-total-n849758",
+        "shortText": "Un relevamiento nacional de CAME correspondiente a septiembre destaca una mejora interanual de las transacciones y una recuperación de la",
+        "title": "Crecen las ventas en el comercio local por la flexibilización casi total",
+        "image": "/img/blog/car.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 29,
+        "url": "https://www.facebook.com/C%C3%A1mara-de-industria-y-Comercio-de-Cipolletti-112517887067903/videos/230433324962162/",
+        "shortText": "Ver Video",
+        "title": "José Luis Bunter, de la Cámara Industria y Comercio Cipolletti en Argentisíma Satelital.",
+        "image": "/img/blog/jor.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 30,
+        "url": "https://www.neuquenalinstante.com.ar/noticias/2021/09/14/87793-ciclo-liderazgo-mujeres-cicc-un-espacio-de-capacitacion-y-fortalecimiento-para-mujeres-emprendedoras",
+        "shortText": "El evento se realizará los próximos 9 y 10 de octubre y es organizado por el equipo de mujeres de la Cámara de Industria y Comercio de Cipolletti (CICC).",
+        "title": "Ciclo 'Liderazgo Mujeres CICC', un espacio de capacitación y fortalecimiento para mujeres emprendedoras",
+        "image": "/img/blog/mu.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 31,
+        "url": "https://www.lmcipolletti.com/presentaron-una-denuncia-penal-los-cortes-puente-n847909",
+        "shortText": "En la denuncia, comerciantes cipoleños y de Neuquén solicitaron que se constituya Gendarmería y la Justicia intime al desalojo en un plazo no mayor a 3 horas.",
+        "title": "Presentaron una denuncia penal por los cortes de puente",
+        "image": "/img/blog/co.png",
+        "tags": ["NOVEDAD"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    },
+    {
+        "id": 32,
+        "url": "https://www.lmcipolletti.com/feriado-los-mercantiles-paralizara-este-lunes-la-actividad-comercial-n847174",
+        "shortText": "Se pasó para hoy la celebración del Día del Empleado de Comercio. El sindicato controlará que los comerciantes no obliguen a su personal a laburar. La CIC",
+        "title": "Feriado de los mercantiles paralizará este lunes la actividad comercial",
+        "image": "/img/blog/ti.png",
+        "tags": ["ECONOMÍA"],
+        "date": {
+            "day": "07",
+            "month": "August"
+        }
+    }
 ]

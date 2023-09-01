@@ -50,7 +50,61 @@ const NavbarArch = ({ lr, nr, theme }) => {
                 href="/"
                 onClick={handleMobileDropdown}
               >
-                VOLVER AL INICIO
+                Inicio
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="about4"
+                onClick={handleMobileDropdown}
+              >
+                Espectáculo
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="/cursos"
+                onClick={handleMobileDropdown}
+              >
+                Cursos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="/"
+                onClick={handleMobileDropdown}
+              >
+                Noticias
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="/"
+                onClick={handleMobileDropdown}
+              >
+                Eventos
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="/"
+                onClick={handleMobileDropdown}
+              >
+                Convenios
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link"
+                href="/"
+                onClick={handleMobileDropdown}
+              >
+                Contacto
               </Link>
             </li>
           </ul>
