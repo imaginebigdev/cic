@@ -42,27 +42,26 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <a className="date">
-                              <i
-                                className="fas fa-clock"
-                                style={{ margin: "4px", color: "#fff" }}
-                              ></i>
+                            <i
+                              className="fas fa-clock"
+                              style={{ margin: "4px", color: "#fff" }}
+                            ></i>
 
-                              <span>
-                                <i>{blogItem.date.day}</i>/{blogItem.date.month}
-                              </span>
-                            </a>
+                            <span>
+                              <i>{blogItem.date.day}</i>/{blogItem.date.month}
+                            </span>
 
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <a className="tag">
-                                <span>{tag}</span>
-                              </a>
+                              <span
+                                className="tag"
+                                style={{ color: "#08b8fc" }}
+                              >
+                                {tag}
+                              </span>
                             ))}
                           </div>
-                          <h5 style={{ color: "#fff" }}>
-                            <a>{blogItem.title}</a>
-                          </h5>
+                          <h5 style={{ color: "#fff" }}>{blogItem.title}</h5>
                           <p className="mt-10" style={{ color: "#fff" }}>
                             {blogItem.content}
                             {blogItem.ul && (
