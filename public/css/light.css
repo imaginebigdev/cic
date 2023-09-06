@@ -1202,13 +1202,13 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#d8261d),
-    color-stop(#d8261d),
+    from(#003491ff),
+    color-stop(#003491ff),
     to(#201c1a)
   );
-  background: -webkit-linear-gradient(left, #d8261d, #d8261d, #201c1a);
-  background: -o-linear-gradient(left, #d8261d, #d8261d, #201c1a);
-  background: linear-gradient(to right, #d8261d, #d8261d, #201c1a);
+  background: -webkit-linear-gradient(left, #003491ff, #003491ff, #201c1a);
+  background: -o-linear-gradient(left, #003491ff, #003491ff, #201c1a);
+  background: linear-gradient(to right, #003491ff, #003491ff, #201c1a);
   border-radius: 50%;
   -webkit-animation: moveCircle 3s linear infinite;
   animation: moveCircle 3s linear infinite;
@@ -1301,7 +1301,7 @@ span:hover {
 }
 
 .loading {
-  color: #d8261d;
+  color: #003491ff;
   position: fixed;
   left: 50%;
   top: calc(50% - 40px);
@@ -1477,42 +1477,18 @@ span:hover {
 
 /* ====================== [ End Text Animation & Images ] ====================== */
 /* ====================== [ Start Cursor Style ] ====================== */
-body {
-  cursor: none;
-}
 
-.mouse-cursor {
-  position: fixed;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  border-radius: 50%;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  visibility: hidden;
-}
 
-.cursor-inner {
-  margin-left: 2px;
-  margin-top: 2px;
-  width: 6px;
-  height: 6px;
-  z-index: 10000001;
-  background-color: #d8261d;
-  -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
-    margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
+
+
+
 
 .cursor-inner.cursor-hover {
   margin-left: -40px;
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #d8261d;
+  background-color: #003491ff;
   opacity: 0.3;
 }
 
@@ -1521,7 +1497,7 @@ body {
   margin-top: -15px;
   width: 40px;
   height: 40px;
-  border: 1px solid #d8261d;
+  border: 1px solid #003491ff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 10000000;
@@ -1573,7 +1549,7 @@ body {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #d8261d;
+  color: #003491ff;
   left: 0;
   top: 0;
   height: 44px;
@@ -1591,7 +1567,7 @@ body {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #d8261d;
+  stroke: #003491ff;
   stroke-width: 4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -8226,10 +8202,10 @@ body {
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 footer {
-  color: #d8261d;
+  color: #003491ff;
   padding: 100px 0;
   background: #f5f5f5;
-  border-top: 1px solid #d8261d;
+  border-top: 1px solid #003491ff;
 }
 
 footer.sub-bg {
@@ -8321,7 +8297,7 @@ footer .item .social a {
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #d8261d;
+  border: 1px solid #003491ff;
   font-size: 13px;
   margin-right: 10px;
 }

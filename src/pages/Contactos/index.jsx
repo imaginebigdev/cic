@@ -2,11 +2,6 @@ import React from "react";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
 import LightTheme from "../../layouts/Light";
-import data from "../../data/blog2.json";
-import BlogGrid from "../../components/Blog-grid/blog-even";
-import IntroEven from "../../components/Intro-with-slider/intro-even";
-import IntroConve from "../../components/Intro-with-slider/intro-conve";
-import FullTestimonials from "../../components/Full-testimonials/full-testimonials";
 import IntroCont from "../../components/Intro-with-slider/intro-cont";
 import Contactos from "../../components/Services8/contacto";
 import ContactForm from "../../components/Contact-form/contact-form";
@@ -15,7 +10,7 @@ const Contacto = () => {
   const fixedSlider = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
-  const logoRef = React.useRef(null);
+  const c = true;
 
   React.useEffect(() => {
     setInterval(() => {
@@ -29,12 +24,11 @@ const Contacto = () => {
   }, [fixedSlider, MainContent, navbarRef]);
   return (
     <LightTheme mobileappstyle>
-      <Navbar />
+      <Navbar c />
       <IntroCont sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Contactos />
         <ContactForm />
-
         <Footer />
       </div>
     </LightTheme>

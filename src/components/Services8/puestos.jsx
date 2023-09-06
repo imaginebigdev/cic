@@ -6,12 +6,21 @@ const Puestos = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12 text-center mb-4">
-            <h3 style={{ color: "#003491ff" }}>COMISIÓN DIRECTIVA</h3>
+            <h2 style={{ color: "#003491ff" }}>COMISIÓN DIRECTIVA</h2>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -24,7 +33,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -37,7 +55,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -50,9 +77,21 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
-              <div className="item-tit mb-15">
+              <div
+                className="item-tit mb-15"
+                style={{ justifyContent: "center" }}
+              >
                 <div className="text-tit" style={{ color: "#fff" }}>
                   <h4>Pablo Cossi</h4>
                   <h6>TESORERO</h6>
@@ -63,7 +102,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -76,7 +124,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -89,9 +146,21 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
-              <div className="item-tit mb-15">
+              <div
+                className="item-tit mb-15"
+                style={{ justifyContent: "center" }}
+              >
                 <div className="text-tit" style={{ color: "#fff" }}>
                   <h4>Gino Berardo</h4>
                   <h6>TERCER VOCAL</h6>
@@ -102,7 +171,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -115,7 +193,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -128,7 +215,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -141,7 +237,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -154,7 +259,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -167,7 +281,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -180,7 +303,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -193,7 +325,16 @@ const Puestos = () => {
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>
@@ -204,12 +345,21 @@ const Puestos = () => {
             </div>
           </div>
           <div className="col-lg-12 text-center mb-4">
-            <h3 style={{ color: "#003491ff" }}>GERENCIA</h3>
+            <h2 style={{ color: "#003491ff" }}>GERENCIA</h2>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div
               className="item mb-30 text-center"
-              style={{ backgroundImage: "url(/img/l.png)" }}
+              style={{
+                backgroundImage: "url(/img/l.png)",
+                transition: "transform 0.3s ease-in-out",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "translateX(-5px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateX(0)";
+              }}
             >
               <div className="item-tit mb-15">
                 <div className="text-tit" style={{ color: "#fff" }}>

@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>GEARS Automatismos</title>
-        <link rel="icon" href="/img/logo-gear.png" />
+        <title>Cámara de Industria y Comercio de Cipolletti</title>
+        <link rel="icon" href="/img/logo-cic.png" />
       </Head>
       <Cursor />
       <LoadingScreen />

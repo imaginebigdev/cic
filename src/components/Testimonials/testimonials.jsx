@@ -59,13 +59,12 @@ class Testimonials extends React.Component {
                 {...{
                   ref: (c) => (this.slider = c),
                   dots: false,
-                  infinite: true,
                   arrows: true,
-                  centerMode: true,
+                  centerMode: false, // Cambio a false
                   autoplay: true,
                   rows: 1,
-                  slidesToScroll: 2,
-                  slidesToShow: 1,
+                  slidesToScroll: 1, // Cambio a 1
+                  slidesToShow: 1, // Cambio a 1
                   responsive: [
                     {
                       breakpoint: 1024,
@@ -91,23 +90,33 @@ class Testimonials extends React.Component {
                   ],
                 }}
               >
-                <div className="item">
-                  <div className="info inf-lrg valign">
-                    <div className="cont">
-                      <div className="author">
-                        <h6 className="author-name color-font">
-                          Pablo Espinoza.
-                        </h6>
-                        <span className="author-details">(Emprendedor)</span>
-                      </div>
+                <div className="item valing">
+                  <div className="cont ml-5 mr-1">
+                    <div className="author">
+                      <h6
+                        className="author-name color-font"
+                        style={{ textAlign: "center", marginBottom: "10px" }}
+                      >
+                        Pablo Espinoza.
+                      </h6>
+                      <span
+                        className="author-details"
+                        style={{ textAlign: "center", marginBottom: "10px" }}
+                      >
+                        (Emprendedor)
+                      </span>
                     </div>
                   </div>
-                  <div className="valign">
-                    <p className="fz-20 fw-200">
-                      &quot;Estimado Jesús, quiero agradecerte el tiempo q me
+
+                  <div className="valign" style={{ textAlign: "center" }}>
+                    <p
+                      className="fz-20 fw-200 ml-1 mr-5"
+                      style={{ fontSize: "14px" }}
+                    >
+                      &quot;Estimado Jesús, quiero agradecerte el tiempo que me
                       has dedicado para informarme y asesorarme, como
-                      emprendedor es muy grato saber q hay un lugar (CIC) donde
-                      puedo presentar mi proyecto y que alguien con tu
+                      emprendedor es muy grato saber que hay un lugar (CIC)
+                      donde puedo presentar mi proyecto y que alguien con tu
                       conocimiento y experiencia está dispuesto a
                       acompañarme.&quot;
                     </p>
@@ -116,10 +125,8 @@ class Testimonials extends React.Component {
               </Slider>
             </div>
           </div>
-          {this.renderArrows()}
         </div>
-        <div className="line-v top"></div>
-        <div className="line-v bottom"></div>
+        {/*  {this.renderArrows()} */}
       </section>
     );
   }

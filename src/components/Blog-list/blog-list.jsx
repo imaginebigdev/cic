@@ -15,10 +15,26 @@ const BlogList = ({ blogs }) => {
                   className="item mb-80 wow fadeInUp"
                   key={blogItem.id}
                   data-wow-delay=".3s"
+                  style={{
+                    backgroundColor: "#1a3f95ff",
+                    padding: "20px",
+                    borderRadius: "10px",
+                    boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                    transition: "transform 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "scale(1.3)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "scale(1)";
+                  }}
                 >
                   <div className="row">
                     <div className="col-lg-6 valign">
-                      <div className="img md-mb50">
+                      <div
+                        className="img md-mb50 mt-15"
+                        style={{ overflow: "hidden" }}
+                      >
                         <img src={blogItem.image} alt="" />
                       </div>
                     </div>
@@ -26,29 +42,28 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link href="/blog/blog-dark">
-                              <a className="date">
-                                <span>
-                                  <i>{blogItem.date.day}</i>
-                                  {blogItem.date.month}
-                                </span>
-                              </a>
-                            </Link>
+                            <a className="date">
+                              <i
+                                className="fas fa-clock"
+                                style={{ margin: "4px", color: "#fff" }}
+                              ></i>
+
+                              <span>
+                                <i>{blogItem.date.day}</i>/{blogItem.date.month}
+                              </span>
+                            </a>
+
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href="/blog/blog-dark">
-                                <a className="tag">
-                                  <span>{tag}</span>
-                                </a>
-                              </Link>
+                              <a className="tag">
+                                <span>{tag}</span>
+                              </a>
                             ))}
                           </div>
-                          <h5>
-                            <Link href="/blog-details/blog-details-dark">
-                              <a>{blogItem.title}</a>
-                            </Link>
+                          <h5 style={{ color: "#fff" }}>
+                            <a>{blogItem.title}</a>
                           </h5>
-                          <p className="mt-10">
+                          <p className="mt-10" style={{ color: "#fff" }}>
                             {blogItem.content}
                             {blogItem.ul && (
                               <ul>

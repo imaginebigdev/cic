@@ -10,7 +10,14 @@ const FullTest = () => {
           <div className="col-lg-11">
             <div className="posts mt-80">
               <div className="item mb-80 wow fadeInUp" data-wow-delay=".3s">
-                <div className="row">
+                <div
+                  className="row"
+                  style={{
+                    border: "3px solid #003491ff",
+                    boxShadow: "5px 5px 10px rgba(0, 0, 0, 0.4)",
+                    padding: "20px",
+                  }}
+                >
                   <div className="col-lg-6 valign">
                     <div className="img md-mb50">
                       <img src={"/img/ut.png"} alt="" />

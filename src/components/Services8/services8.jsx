@@ -8,30 +8,36 @@ const Services8 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="item mb-30 text-center">
+              <br></br>
               <div className="item-tit mb-15">
                 <div className="icon mb-3">
-                  <i className="fas fa-chart-bar"></i>
+                  <i
+                    className="fas fa-chart-bar"
+                    style={{ fontSize: "48px" }}
+                  ></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Mision</h5>
+                  <h5 style={{ fontSize: "24px" }}>Mision</h5>
                 </div>
               </div>
               <p style={{ textAlign: "justify", color: "#fff" }}>
                 Ser una organización que promociona el desarrollo y apoyo a
-                nuestros miembros y a la comunidad; unificando , innovación,
+                nuestros miembros y a la comunidad; unificando, innovación,
                 esfuerzo, compromiso, talento y profesionalismo, para así,
                 contribuir con el crecimiento nacional.
               </p>
+              <br></br>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="item mb-30 text-center">
+              <br></br>
               <div className="item-tit mb-15">
                 <div className="icon mb-3">
-                  <i className="fas fa-list"></i>
+                  <i className="fas fa-list" style={{ fontSize: "48px" }}></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Valores</h5>
+                  <h5 style={{ fontSize: "24px" }}>Valores</h5>
                 </div>
               </div>
               <p style={{ textAlign: "justify", color: "#fff" }}>
@@ -39,16 +45,21 @@ const Services8 = () => {
                 Compromiso / Respeto / Confianza / Motivación / Mejoramiento
                 Continuo / Calidad / Conocimiento / Garantía / Resultados
               </p>
+              <br></br>
+              <br></br>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
             <div className="item mb-30 text-center">
               <div className="item-tit mb-15">
                 <div className="icon mb-3">
-                  <i className="fas fa-eye text-7xl"></i>
+                  <i
+                    className="fas fa-eye text-7xl"
+                    style={{ fontSize: "48px" }}
+                  ></i>
                 </div>
                 <div className="text-tit">
-                  <h5>Vision</h5>
+                  <h5 style={{ fontSize: "24px" }}>Vision</h5>
                 </div>
               </div>
               <p style={{ textAlign: "justify", color: "#fff" }}>

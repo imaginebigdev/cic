@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import { handleDropdown, handleMobileDropdown } from "../../common/navbar";
+import NavButton from "./navButton";
 
 const Navbar = ({ lr, nr, theme }) => {
   return (
@@ -43,68 +44,12 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item m-4">
-              <i className="fas fa-home"></i>
-              <Link
-                className="nav-link"
-                href="/"
-                onClick={handleMobileDropdown}
-                offset={50}
-                duration={500}
-              >
-                Inicio
-              </Link>
-            </li>
-            <li className="nav-item m-4">
-              <i className="fas fa-graduation-cap"></i>
-              <Link
-                className="nav-link"
-                href="/Cursos"
-                onClick={handleMobileDropdown}
-              >
-                Cursos
-              </Link>
-            </li>
-            <li className="nav-item m-4">
-              <i className="fas fa-newspaper"></i>
-              <Link
-                className="nav-link"
-                href="/Noticias"
-                onClick={handleMobileDropdown}
-              >
-                Noticias
-              </Link>
-            </li>
-            <li className="nav-item m-4">
-              <i className="fas fa-calendar-alt"></i>
-              <Link
-                className="nav-link"
-                href="/Eventos"
-                onClick={handleMobileDropdown}
-              >
-                Eventos
-              </Link>
-            </li>
-            <li className="nav-item m-4">
-              <i className="fas fa-handshake"></i>
-              <Link
-                className="nav-link"
-                href="/Convenios"
-                onClick={handleMobileDropdown}
-              >
-                Convenios
-              </Link>
-            </li>
-            <li className="nav-item m-4">
-              <i className="fas fa-envelope"></i>
-              <Link
-                className="nav-link"
-                href="/Contactos"
-                onClick={handleMobileDropdown}
-              >
-                Contacto
-              </Link>
-            </li>
+            <NavButton href="/" label="Inicio" />
+            <NavButton href="/Cursos" label="Cursos" />
+            <NavButton href="/Noticias" label="Noticias" />
+            <NavButton href="/Eventos" label="Eventos" />
+            <NavButton href="/Convenios" label="Convenios" />
+            <NavButton href="/Contactos" label="Contactos" />
           </ul>
         </div>
       </div>

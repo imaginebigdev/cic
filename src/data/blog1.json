@@ -6,8 +6,8 @@
     "image": "/img/blog/curso.png",
     "tags": ["TUTOR:", "EMERCAP"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "6",
+      "month": "HORAS"
     }
   },
   {
@@ -18,8 +18,8 @@
     "image": "/img/blog/cap.png",
     "tags": ["TUTOR:", "JESUS GIOVANNETTI"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "2",
+      "month": "HORAS"
     }
   },
   {
@@ -29,8 +29,8 @@
     "image": "/img/blog/tall.png",
     "tags": ["TUTOR:", "GIO CONSULTING"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "2",
+      "month": "HORAS"
     }
   },
   {
@@ -40,8 +40,8 @@
     "image": "/img/blog/city.png",
     "tags": ["TUTOR:", "USINA DE EMPRENDERORES"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "1",
+      "month": "HORAS"
     }
   },
   {
@@ -51,8 +51,8 @@
     "image": "/img/blog/pot.png",
     "tags": ["TUTOR:", "MARÍA MONTES DE OCA"],
     "date": {
-      "day": "07",
-      "month": "August"
+      "day": "2",
+      "month": "HORAS"
     }
   }
 ]

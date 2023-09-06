@@ -31,6 +31,7 @@ const IntroCurso = ({ sliderRef }) => {
     <header
       ref={sliderRef}
       className="slider slider-prlx fixed-slider text-center"
+      style={{ height: "740px" }}
     >
       <div className="swiper-container parallax-slider">
         {!load ? (
@@ -84,12 +85,16 @@ const IntroCurso = ({ sliderRef }) => {
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
                 >
-                  <Particles id="particles-js" options={particlesConfig} />
                   <div className="container">
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center">
-                          <h2 className="color-font mt-40">Cursos</h2>
+                          <h1
+                            className="color-font mt-40"
+                            style={{ textTransform: "uppercase" }}
+                          >
+                            Cursos
+                          </h1>
                         </div>
                       </div>
                     </div>
@@ -99,34 +104,6 @@ const IntroCurso = ({ sliderRef }) => {
             ))}
           </Swiper>
         ) : null}
-
-        <div className="setone setwo">
-          <div
-            ref={navigationNextRef}
-            className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-right"></i>
-          </div>
-          <div
-            ref={navigationPrevRef}
-            className="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer"
-          >
-            <i className="fas fa-chevron-left"></i>
-          </div>
-        </div>
-        <div ref={paginationRef} className="swiper-pagination top botm"></div>
-
-        <div className="social-icon">
-          <a href="https://www.facebook.com/cicc.cipolletti.9">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/camaraicc/">
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a href="https://api.whatsapp.com/send/?phone=542994774244&text=Hola%2C+me+gustar%C3%ADa+saber+m%C3%A1s&app_absent=0">
-            <i className="fab fa-whatsapp"></i>
-          </a>
-        </div>
       </div>
     </header>
   );
