@@ -33,12 +33,6 @@ const Cic = () => {
         <Services8 />
         <AboutUs6 />
         <Puestos />
-        {/* <Services style="4item" />
-        <Portfolio grid={3} filterPosition="center" />
-        <Blogs4 />
-        <FullTestimonials noPadding />
-        <CallToAction /> */}
-
         <Footer />
       </div>
     </LightTheme>

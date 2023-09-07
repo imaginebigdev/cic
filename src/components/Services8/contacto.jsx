@@ -49,13 +49,9 @@ const Contactos = () => {
                     className="far fa-calendar-alt text-20xl"
                     style={{ fontSize: "70px", marginLeft: "14px" }}
                   ></i>
-                  <i
-                    className="far fa-clock text-20xl"
-                    style={{ fontSize: "70px" }}
-                  ></i>
                 </div>
                 <div className="text-tit">
-                  <h5 className="mb-4">DIAS Y HS DE ATENCIÓN</h5>
+                  <h5 className="mb-4">HORARIOS DE ATENCIÓN</h5>
                 </div>
               </div>
               <p style={{ textAlign: "center", color: "#fff" }}>

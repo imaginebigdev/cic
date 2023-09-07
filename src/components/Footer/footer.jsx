@@ -120,7 +120,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <br></br>
                 <li>
                   <span
-                    className="icon pe-7s-mail"
+                    className="icon pe-7s-clock"
                     style={{ color: "#003491ff" }}
                   ></span>
                   <div className="cont">
