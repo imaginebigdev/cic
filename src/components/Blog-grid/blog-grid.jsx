@@ -1,19 +1,41 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { getFirestore, collection, getDocs } from "firebase/firestore";
+import blogApp from "../../fb";
 
 const BlogGrid = ({ blogs }) => {
   const handleExpandClick = (itemId, url) => {
     window.location.href = `${url}`;
   };
+  /* const [lista, setLista] = useState([]);
+
+  useEffect(() => {
+    const firestore = getFirestore(blogApp);
+    const getLista = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(firestore, "usuarios"));
+        const docs = blogs;
+        querySnapshot.forEach((doc) => {
+          docs.push(...doc.data().noti);
+        });
+
+        setLista(docs.reverse());
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getLista();
+  }, [lista]); */
+
   return (
     <section className="blog-pg blog-list section-padding pt-0">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-11">
             <div className="posts mt-80">
-              {blogs.map((blogItem, index) => (
+              {blogs?.map((blogItem, index) => (
                 <div
                   className="item mb-80 wow fadeInUp"
                   key={blogItem.id}
@@ -47,12 +69,12 @@ const BlogGrid = ({ blogs }) => {
                         <div>
                           <div className="info">
                             <span className="date" style={{ fontSize: "15px" }}>
-                              <i>{blogItem.date.day}</i>/{blogItem.date.month}/
-                              {blogItem.date.año}
+                              <i>{blogItem.date?.day}</i>/{blogItem.date?.month}
+                              /{blogItem.date?.año}
                             </span>
 
                             <span>/</span>
-                            {blogItem.tags.map((tag, index) => (
+                            {blogItem.tags?.map((tag, index) => (
                               <span
                                 className="tag"
                                 style={{
